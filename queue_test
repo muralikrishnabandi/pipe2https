@@ -1,0 +1,11 @@
+package main
+
+import (
+	"testing"
+)
+
+func TestEnq(t *testing.T) {
+	enq(newPayload("1"))
+	enq(newPayload("2"))
+	enq(newPayload("3"))
+}
